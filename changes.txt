@@ -1,0 +1,28 @@
+17:34 2014-05-20
+Ändrade i gamerunner så att den kan ta emot en layout fil
+
+17:35 2014-05-20
+
+Ändrade i sendtopi inuti snake så att den kan skicka en layout fil.
+
+
+10:45 2014-05-19
+
+Har ändrat i sender klass i GUIPI
+
+Ändrade i GameSelectionPanels
+Metod getPanel(int indeX)
+- lade in koll om gamePanels är null, isåfall skriv ut meddelande
+
+Ändrade i Controller
+Metod navigate(String inputLine)
+- Kollade om den nuvarande panelen är null
+
+- NavigateGames () Sender.send();
+
+- Tog bort sender sender från controllen
+Telefon
+Ändrade så att receiver ej startar. Ändrade reconnect(receivethread.start)
+
+Ändrade i controller, pi, pressList
+Lade in parameter för arraylist av menu buttons
